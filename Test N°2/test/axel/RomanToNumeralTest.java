@@ -20,8 +20,8 @@ public class RomanToNumeralTest {
 	}
 
 	@Test
-	public void test() {
-		assertEquals(21, calc.getNumeral("XXI"));
+	public void testGetNumeral() {
+		assertEquals(1063, calc.getNumeral("MLXIII"));
 	}
 
 }
